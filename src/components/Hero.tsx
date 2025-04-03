@@ -66,7 +66,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-up" style={{ animationDelay: '0.4s' }}>
-            <a href="https://comforting-bombolone-92d61b.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://costwiseinnovators.netlify.app/" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="btn-primary group">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

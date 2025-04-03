@@ -49,7 +49,7 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <a href="https://comforting-bombolone-92d61b.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://costwiseinnovators.netlify.app/" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary">Get Started</Button>
             </a>
           </div>
