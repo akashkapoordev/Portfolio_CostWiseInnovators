@@ -26,7 +26,7 @@ const Team = () => {
     {
       name: "Navjot",
       role: "Backend Developer",
-      image: "/team/member3.jpg", // Person in grey winter jacket
+      image: "/team/member4.jpg", // Person in grey winter jacket
       bio: "Developing the backend of the application.",
       social: {
         email: "mailto:marcus@costwiseinsights.com",
@@ -35,7 +35,7 @@ const Team = () => {
     {
       name: "Visakha",
       role: " Data Analyst",
-      image: "/team/member4.jpg", // Person in white patterned dress
+      image: "/team/member3.jpg", // Person in white patterned dress
       bio: "Analyzing the data and making it useful for the team.",
       social: {
         email: "mailto:anjali@costwiseinsights.com",

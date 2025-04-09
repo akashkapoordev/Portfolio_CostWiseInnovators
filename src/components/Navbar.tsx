@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 
@@ -35,7 +35,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold gradient-text">CostWise</span>
+            <div className="w-10 h-10 relative">
+              <img 
+                src="/images/Logo.png" 
+                alt="CostWise Logo" 
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <span className="text-xl font-semibold text-[#00B4D8]">CostWise</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -88,7 +95,7 @@ const Navbar = () => {
               </a>
             ))}
             <div className="px-4">
-              <a href="https://comforting-bombolone-92d61b.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://costwiseinnovators.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full btn-primary">Get Started</Button>
               </a>
             </div>
